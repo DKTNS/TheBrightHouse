@@ -47,11 +47,11 @@
     animation: fadeInUp2 2.5s;
     animation-delay: 0s;
 }
-.mn-top-banner-site .mn-box {
+/* .mn-top-banner-site .mn-box {
     position: relative;
     max-width: 1600px;
     margin: auto;
-}
+} */
 .mn-top-banner-site .left-swiper-area-start {
     position: absolute;
     top: 50%;
