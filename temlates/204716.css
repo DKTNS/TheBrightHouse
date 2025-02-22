@@ -1,0 +1,133 @@
+.mn-top-banner-site .mySwiper-banner-one-in-two {
+    position: relative;
+}
+.mn-top-banner-site .mn-mini-title {
+    text-transform: uppercase;
+}
+.mn-top-banner-site .mySwiper-banner-one-in-two .swiper-slide.swiper-slide-active .pre {
+    animation: fadeInUp 1s;
+    animation-delay: 0s;
+    display: block;
+}
+.mn-top-banner-site .mySwiper-banner-one-in-two .swiper-slide.swiper-slide-active .title {
+    animation: fadeInUp 1.5s;
+    animation-delay: 0s;
+}
+.mn-top-banner-site .mySwiper-banner-one-in-two .swiper-slide.swiper-slide-active .disc {
+    animation: fadeInUp 2.5s;
+    animation-delay: 0s;
+}
+.mn-top-banner-site .mySwiper-banner-one-in-two .swiper-slide.swiper-slide-active .rts-btn {
+    animation: fadeInUp 2.5s;
+    animation-delay: 0s;
+}
+.mn-top-banner-site .mn-card {
+    width: 500px;
+}
+.mn-top-banner-site .mn-card .pre {
+    position: relative;
+}
+.mn-top-banner-site .mn-card .rts-btn {
+    transition: 0.3s;
+}
+.mn-top-banner-site .swiper-wrapper .swiper-slide.swiper-slide-active .pre {
+    animation: fadeInUp2 1.5s;
+    animation-delay: 0s;
+    display: block;
+}
+.mn-top-banner-site .swiper-wrapper .swiper-slide.swiper-slide-active .title {
+    animation: fadeInUp2 1.5s;
+    animation-delay: 0s;
+}
+.mn-top-banner-site .swiper-wrapper .swiper-slide.swiper-slide-active .disc {
+    animation: fadeInUp2 2.5s;
+    animation-delay: 0s;
+}
+.mn-top-banner-site .swiper-wrapper .swiper-slide.swiper-slide-active .animation-55 {
+    animation: fadeInUp2 2.5s;
+    animation-delay: 0s;
+}
+.mn-top-banner-site .mn-box {
+    position: relative;
+    max-width: 1600px;
+    margin: auto;
+}
+.mn-top-banner-site .left-swiper-area-start {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    left: 80px;
+    width: 500px;
+}
+
+.mn-top-banner-site img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mn-top-banner-site .left-swiper-area-start {
+        top: 38%;
+        left: 42px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .mn-top-banner-site .left-swiper-area-start {
+        top: 50%;
+        left: 0px;
+        width: 100%;
+    }
+    .mn-top-banner-site .mn-card {
+        width: 100%;
+    }
+}
+
+.mn-top-banner-site .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInUp2 {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 40%, 0);
+        transform: translate3d(0, 40%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.mn-top-banner-site .slider-navigation-style-04 {
+    height: 56px;
+    width: 56px;
+    position: relative;
+    display: block;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.mn-top-banner-site .swiper-button-next:after, .mn-top-banner-site .swiper-button-prev:after {
+    display: none;
+}

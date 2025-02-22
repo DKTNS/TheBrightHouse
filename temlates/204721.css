@@ -1,0 +1,295 @@
+.col-divider-rotated p{
+    margin: 0px;
+}
+@media (min-width: 576px) {
+    .col-sm-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-sm-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: .0625rem;
+        height: 100%;
+        background-color: rgba(33,50,91,.1);
+        content: ""
+    }
+}
+
+.col-divider-rotated>:not(:first-child)::before {
+    transform: rotate(20deg)
+}
+
+@media (min-width: 768px) {
+    .col-md-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-md-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: .0625rem;
+        height: 100%;
+        background-color: rgba(33,50,91,.1);
+        content: ""
+    }
+}
+
+.col-divider-rotated>:not(:first-child)::before {
+    transform: rotate(20deg)
+}
+
+@media (min-width: 992px) {
+    .col-lg-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-lg-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: .0625rem;
+        height: 100%;
+        background-color: rgba(33,50,91,.1);
+        content: ""
+    }
+}
+
+.col-divider-rotated>:not(:first-child)::before {
+    transform: rotate(20deg)
+}
+
+@media (min-width: 1200px) {
+    .col-xl-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-xl-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: .0625rem;
+        height: 100%;
+        background-color: rgba(33,50,91,.1);
+        content: ""
+    }
+}
+
+.col-divider-rotated>:not(:first-child)::before {
+    transform: rotate(20deg)
+}
+
+@media (min-width: 1400px) {
+    .col-xxl-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-xxl-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: .0625rem;
+        height: 100%;
+        background-color: rgba(33,50,91,.1);
+        content: ""
+    }
+}
+
+.col-divider-rotated>:not(:first-child)::before {
+    transform: rotate(20deg)
+}
+
+.col-divider>:not(:first-child) {
+    position: relative
+}
+
+.col-divider>:not(:first-child)::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .0625rem;
+    height: 100%;
+    background-color: rgba(33,50,91,.1);
+    content: ""
+}
+
+.col-divider-rotated>:not(:first-child)::before {
+    transform: rotate(20deg)
+}
+
+.col-divider>:not(:first-child) {
+    position: relative
+}
+
+.col-divider>:not(:first-child)::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: calc(100% - 1.5rem);
+    height: .0625rem;
+    background-color: rgba(33,50,91,.1);
+    content: "";
+    transform: translateX(-50%)
+}
+
+.col-divider>* {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem
+}
+
+.col-divider>:first-child {
+    padding-top: 0
+}
+
+.col-divider>:last-child {
+    padding-bottom: 0
+}
+
+@media (max-width: 575.98px) {
+    .col-sm-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-sm-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: calc(100% - 1.5rem);
+        height: .0625rem;
+        background-color: rgba(33,50,91,.1);
+        content: "";
+        transform: translateX(-50%)
+    }
+    .col-sm-divider>* {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+    .col-sm-divider>:first-child {
+        padding-top: 0
+    }
+    .col-sm-divider>:last-child {
+        padding-bottom: 0
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col-md-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-md-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: calc(100% - 1.5rem);
+        height: .0625rem;
+        background-color: rgba(33,50,91,.1);
+        content: "";
+        transform: translateX(-50%)
+    }
+    .col-md-divider>* {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+    .col-md-divider>:first-child {
+        padding-top: 0
+    }
+    .col-md-divider>:last-child {
+        padding-bottom: 0
+    }
+}
+@media (max-width: 991.98px) {
+    .col-lg-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-lg-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: calc(100% - 1.5rem);
+        height: .0625rem;
+        background-color: rgba(33,50,91,.1);
+        content: "";
+        transform: translateX(-50%)
+    }
+    .col-lg-divider>* {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+    .col-lg-divider>:first-child {
+        padding-top: 0
+    }
+    .col-lg-divider>:last-child {
+        padding-bottom: 0
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .col-xl-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-xl-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: calc(100% - 1.5rem);
+        height: .0625rem;
+        background-color: rgba(33,50,91,.1);
+        content: "";
+        transform: translateX(-50%)
+    }
+    .col-xl-divider>* {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+    .col-xl-divider>:first-child {
+        padding-top: 0
+    }
+    .col-xl-divider>:last-child {
+        padding-bottom: 0
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .col-xxl-divider>:not(:first-child) {
+        position:relative
+    }
+    .col-xxl-divider>:not(:first-child)::before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: calc(100% - 1.5rem);
+        height: .0625rem;
+        background-color: rgba(33,50,91,.1);
+        content: "";
+        transform: translateX(-50%)
+    }
+    .col-xxl-divider>* {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+    .col-xxl-divider>:first-child {
+        padding-top: 0
+    }
+    .col-xxl-divider>:last-child {
+        padding-bottom: 0
+    }
+}
+
+.col-divider>:not(:first-child) {
+    position: relative
+}
+
+.col-divider>:not(:first-child)::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .0625rem;
+    height: 100%;
+    background-color: rgba(33,50,91,.1);
+    content: ""
+}
+
+.col-divider>*,.col-divider>:first-child,.col-divider>:last-child {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.col-divider-light>:not(:first-child)::before {
+    background-color: rgba(255,255,255,.1)
+}
