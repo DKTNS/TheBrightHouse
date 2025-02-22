@@ -1,0 +1,7 @@
+.mn-counter .fun-fact--two .fun-fact__count {
+    line-height: 1;
+}
+.mn-counter .fun-fact--two .fun-fact__text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
