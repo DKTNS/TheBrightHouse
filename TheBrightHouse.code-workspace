@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "TheBrightHouse",
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "TheBrightHouse",
+    "liveServer.settings.port": 5501,
+  },
+}
