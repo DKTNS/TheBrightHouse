@@ -61,6 +61,7 @@
     <link href="temlates/theme-204722.css" rel="stylesheet" />
     <link href="temlates/204727.css" rel="stylesheet" />
     <link href="temlates/theme-204723.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   </head>
 
   <body>
@@ -203,9 +204,9 @@
                       <li>
                         <a class="mn-item" href="#carousel-gallery">Проекты</a>
                       </li>
-                      <li>
+                      <!-- <li>
                         <a class="mn-item" href="#customer-reviews">Отзывы</a>
-                      </li>
+                      </li> -->
 
       <!--End header lawer -->
       <!--Sticky Header-->
@@ -291,7 +292,7 @@
             <div class="mn-box position-relative">
               <div class="container">
 
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="carousel-gallery">
             <div class="mn-box position-relative">
               <div class="container">
                 <div class="row">
@@ -337,7 +338,7 @@
                 </div>
               </div>
               <!------------------------------------------------------>
-              <div
+              <!-- <div
                 class="d-flex flex-column align-items-end position-absolute"
                 style="
                   height: 120px;
@@ -380,7 +381,7 @@
                     ></path>
                   </svg>
                 </div> 
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -392,28 +393,28 @@
           <div class="row">
             <div class="col-md-3 col-sm-6 col-6 wow move-up">
               <div class="fun-fact--two text-center">
-                <div class="fun-fact__count counter mn-count">1200</div>
+                <div class="fun-fact__count counter mn-count">600</div>
                 <h6 class="fun-fact__text mn-text">Построено объектов</h6>
               </div>
             </div>
             <div class="col-md-3 col-sm-6 col-6 wow move-up">
               <div class="fun-fact--two text-center">
-                <div class="fun-fact__count counter mn-count">1340</div>
+                <div class="fun-fact__count counter mn-count">850</div>
                 <h6 class="fun-fact__text mn-text">Сделано проектов</h6>
               </div>
             </div>
             <div class="col-md-3 col-sm-6 col-6 wow move-up">
               <div class="fun-fact--two text-center">
-                <div class="fun-fact__count counter mn-count">548</div>
+                <div class="fun-fact__count counter mn-count">350</div>
                 <h6 class="fun-fact__text mn-text">Выполнено ремонтов</h6>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-6 wow move-up">
+              <!--<div class="col-md-3 col-sm-6 col-6 wow move-up">
               <div class="fun-fact--two text-center">
                 <div class="fun-fact__count counter mn-count">815</div>
                 <h6 class="fun-fact__text mn-text">Реконструировано</h6>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -487,12 +488,14 @@
           <div class="col-md-4">
             <div class="text-center px-md-3 px-lg-5">
               <span class="svg-icon svg-icon-lg mb-3">
+                <a href="images/sertificate/license.png" target="_blank" rel="noopener noreferrer">
                 <img
                   class="d-inline-block mb-3 mb-lg-4 sertif-zoom"
                   src="images/sertificate/license.png"
                   width="64"
                   alt=""
                 />
+              </a>
               </span>
               <div class="mn-text">
                 <p>
@@ -504,12 +507,13 @@
           <div class="col-md-4">
             <div class="text-center px-md-3 px-lg-5">
               <span class="svg-icon svg-icon-lg mb-3">
+                <a href="images/sertificate/sertificate-1.png" target="_blank" rel="noopener noreferrer">
                 <img
                   class="d-inline-block mb-3 mb-lg-4 sertif-zoom"
                   src="images/sertificate/sertificate-1.png"
                   width="64"
                   alt=""
-                />
+                /> </a>
 
               </span>
               <div class="mn-text">
@@ -522,25 +526,21 @@
           </div>
           <div class="col-md-4">
             <div class="text-center px-md-3 px-lg-5">
+              <a href="images/sertificate/sro-L1.png" target="_blank" rel="noopener noreferrer">
               <span class="svg-icon svg-icon-lg mb-3">
                 <img
                   class="d-inline-block mb-3 mb-lg-4 sertif-zoom"
-                  src="images/sertificate/sertificate-2.png"
+                  src="images/sertificate/sro-L1.png"
                   width="64"
                   alt=""
-                />
+                /></a>
+                <a href="images/sertificate/sro-L2.png" target="_blank" rel="noopener noreferrer">
                 <img
                   class="d-inline-block mb-3 mb-lg-4 sertif-zoom"
-                  src="images/sertificate/sertificate-3.png"
+                  src="images/sertificate/sro-L2.png"
                   width="64"
                   alt=""
-                />
-                <img
-                  class="d-inline-block mb-3 mb-lg-4 sertif-zoom"
-                  src="images/sertificate/sertificate-4.png"
-                  width="64"
-                  alt=""
-                />
+                /></a>
               </span>
               <div class="mn-text">
                 <p>
@@ -726,16 +726,16 @@
                 <div>
                   <img
                     class="mn-icon w-100"
-                    src="images/cards/IMG_6376.png"
+                    
+                    src="images/cards/IMG_6520.png"
                     alt=""
                   />
                 </div>
                 <div class="iconbox-content">
                   <h4 class="mn-title-card">Строительство под ключ</h4>
                   <p class="mn-text-card">
-                    Мы предлагаем полный цикл строительных работ от закладки
-                    фундамента до отделки помещений, обеспечивая высокое
-                    качество и соблюдение всех сроков.
+                    Наша компания имеет огромный опыт работы по остеклению фасадов
+общеобразовательных учреждений.
                   </p>
                   <a
                     href="#"
@@ -798,13 +798,14 @@
                     </div>
                     <div class="modal-body">
                       <img
-                        src="images/cards/IMG_6376.png"
+                        src="images/cards/IMG_6520.png"
                         class="w-100 mb-4"
                       />
                       <p>
-                        Мы предлагаем полный цикл строительных работ от закладки
-                        фундамента до отделки помещений, обеспечивая высокое
-                        качество и соблюдение всех сроков.
+                        Наша компания имеет огромный опыт работы по остеклению фасадов
+общеобразовательных учреждений. Остекление соответсвует СНиПам и ГОСТ, пожарнойсохранности помещения (123 ФЗ), защите остекления школ и детских садов в
+процессе эксплуатации (антивандальные технологии) и чрезвычайных ситуациях,вопросах энергосбережения и вопросах герметизации и влагоотвода, а так же
+стыковки с вентилируемым фасадом.
                       </p>
                     </div>
                   </div>
@@ -816,16 +817,15 @@
                 <div>
                   <img
                     class="mn-icon w-100"
-                    src="images/cards/IMG_6302.png"
+                    src="images/cards/zenith_light.png"
                     alt=""
                   />
                 </div>
                 <div class="iconbox-content">
-                  <h4 class="mn-title-card">Реконструкция зданий</h4>
+                  <h4 class="mn-title-card">Зенитные фонари</h4>
                   <p class="mn-text-card">
-                    Наша компания выполняет работы по модернизации и
-                    реконструкции существующих зданий и сооружений, повышая их
-                    функциональность и эстетический вид.
+                    Зенитные фонари–решение проблемы освещения производственных,
+общественных зданий большой площади...
                   </p>
                   <a
                     href="#"
@@ -865,7 +865,7 @@
                   <div class="modal-content mn-modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">
-                        Реконструкция зданий
+                        Зенитные фонари
                       </h5>
                       <button
                         type="button"
@@ -888,13 +888,14 @@
                     </div>
                     <div class="modal-body">
                       <img
-                        src="images/cards/IMG_6302.png"
+                        src="images/cards/zenith_light.png"
                         class="w-100 mb-4"
                       />
                       <p>
-                        Наша компания выполняет работы по модернизации и
-                        реконструкции существующих зданий и сооружений, повышая
-                        их функциональность и эстетический вид.
+                        Зенитные фонари–решение проблемы освещения производственных,
+общественных зданий большой площади, для которых недостаточно инсоляции через окна,стеновое светопрозрачное заполнение,  вт.ч.
+противопожарные фрамуги. Индивидуальный подход к каждому клиенту предоставлениегарантийных обязательств, четкое исполнение сроков, высокий уровень профессионализма
+сотрудников.
                       </p>
                     </div>
                   </div>
@@ -911,11 +912,10 @@
                   />
                 </div>
                 <div class="iconbox-content">
-                  <h4 class="mn-title-card">Ландшафтный дизайн</h4>
+                  <h4 class="mn-title-card">Входные группы</h4>
                   <p class="mn-text-card">
-                    Наша компания предлагает услуги по созданию уникального
-                    ландшафтного дизайна и озеленения территорий в соответствии
-                    с пожеланиями заказчика и климатическими условиями.
+                    Мы предлагаем широкий ассортимент входных групп, которые не
+только обеспечивают безопасность и комфорт, но и придают зданию стильный исовременный вид.
                   </p>
                   <a
                     href="#"
@@ -955,7 +955,7 @@
                   <div class="modal-content mn-modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">
-                        Ландшафтный дизайн
+                        Входные группы
                       </h5>
                       <button
                         type="button"
@@ -982,10 +982,11 @@
                         class="w-100 mb-4"
                       />
                       <p>
-                        Наша компания предлагает услуги по созданию уникального
-                        ландшафтного дизайна и озеленения территорий в
-                        соответствии с пожеланиями заказчика и местными
-                        климатическими условиями.
+                        Мы предлагаем широкий ассортимент входных групп, которые не
+только обеспечивают безопасность и комфорт, но и придают зданию стильный исовременный вид.
+
+Наши входные группы изготавливаются по индивидуальнымпроектам, что позволяет учесть все ваши пожелания и требования. Мы используем
+только высококачественные материалы и новейшие технологии, чтобы гарантироватьдолговечность и надежность наших изделий.
                       </p>
                     </div>
                   </div>
@@ -997,16 +998,15 @@
                 <div>
                   <img
                     class="mn-icon w-100"
-                    src="images/cards/IMG_6520.png"
+                    src="images/cards/IMG_6376.png"
                     alt=""
                   />
                 </div>
                 <div class="iconbox-content">
-                  <h4 class="mn-title-card">Техническое обслуживание</h4>
+                  <h4 class="mn-title-card">Фурнитура</h4>
                   <p class="mn-text-card">
-                    Мы осуществляем техническое обслуживание и регулярный ремонт
-                    зданий и инженерных систем для поддержания их надежной
-                    работы и долговечности.
+                    Наша компания предлагает лучшую фурнитуру и комплектующие —
+что делает продукцию долговечной, более эргономичной и очень комфортной приэксплуатации.
                   </p>
                   <a
                     href="#"
@@ -1046,7 +1046,7 @@
                   <div class="modal-content mn-modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">
-                        Техническое обслуживание
+                        Фурнитура
                       </h5>
                       <button
                         type="button"
@@ -1069,13 +1069,12 @@
                     </div>
                     <div class="modal-body">
                       <img
-                        src="images/cards/IMG_6520.png"
+                        src="images/cards/IMG_6376.png"
                         class="w-100 mb-4"
                       />
                       <p>
-                        Мы осуществляем техническое обслуживание и регулярный
-                        ремонт зданий и инженерных систем для поддержания их
-                        надежной работы и долговечности.
+                        Наша компания предлагает лучшую фурнитуру и комплектующие —
+что делает продукцию долговечной, более эргономичной и очень комфортной приэксплуатации.
                       </p>
                     </div>
                   </div>
@@ -1087,17 +1086,14 @@
                 <div>
                   <img
                     class="mn-icon w-100"
-                    src="images/cards/IMG_6633.png"
+                    src="images/cards/IMG_6336.png"
                     alt=""
                   />
                 </div>
                 <div class="iconbox-content">
-                  <h4 class="mn-title-card">Энергоэффективные решения</h4>
+                  <h4 class="mn-title-card">Реализованные проекты</h4>
                   <p class="mn-text-card">
-                    Мы специализируемся на внедрении современных
-                    энергоэффективных технологий и материалов для снижения
-                    энергопотребления зданий и улучшения комфортности
-                    проживания.
+                    •г. Москва, Зеленоград, м.о. Крюково, 17 мкр СОШ на 1100 мест...
                   </p>
                   <a
                     href="#"
@@ -1137,7 +1133,7 @@
                   <div class="modal-content mn-modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">
-                        Энергоэффективные решения
+                        Реализованные проекты
                       </h5>
                       <button
                         type="button"
@@ -1160,14 +1156,18 @@
                     </div>
                     <div class="modal-body">
                       <img
-                        src="images/cards/IMG_6633.png"
+                        src="images/cards/IMG_6336.png"
                         class="w-100 mb-4"
                       />
                       <p>
-                        Мы специализируемся на внедрении современных
-                        энергоэффективных технологий и материалов для снижения
-                        энергопотребления зданий и улучшения комфортности
-                        проживания.
+                        •г. Москва, Зеленоград, м.о. Крюково, 17 мкр СОШ на 1100 мест <br>
+•г. Москва, Зеленоград, м.о. Крюково, 17 мкр ДОО на 250 мест
+корп19<br>
+•г. Москва, ул. Полярная, вл. 25, к.8 ДОУ 300 мест<br>
+•г. Москва, Зеленоград, мкр.17,к.19, ДОО 250 мест<br>
+•г. Москва, Зеленоград ЦИЭ, 2-я оч., корп. 13, ДОО на 250
+мест<br>
+•г. Москва, ул. Полярная, вл. 25, ДОУ 220 мест, кор.9
                       </p>
                     </div>
                   </div>
@@ -1192,8 +1192,8 @@
       }
     </style>
     <footer class="mn-footer">
-      <div class="container">
-        <div class="row">
+      <div class="footer-rm container">
+        <div class="footer-rm row">
           <div
             class="col-sm-7 d-flex justify-content-start justify-content-sm-end"
           >
@@ -1219,13 +1219,13 @@
                   >Проекты</a
                 >
               </li>
-              <li>
+              <!-- <li>
                 <a
                   class="text-decoration-none px-0 pe-1 px-lg-2 pe-lg-2 mn-link"
                   href="#customer-reviews"
                   >Отзывы</a
                 >
-              </li>
+              </li> -->
 <!--               <li>
                 <a
                   class="text-decoration-none px-0 pe-1 px-lg-2 pe-lg-2 mn-link"
@@ -1355,5 +1355,6 @@
         SiteBox("d", false);
       });
     </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>

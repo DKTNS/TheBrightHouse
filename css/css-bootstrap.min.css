@@ -540,6 +540,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: center;
 }
 .no-gutters {
   margin-right: 0;
@@ -550,6 +551,10 @@ pre code {
   padding-right: 0;
   padding-left: 0;
 }
+.footer-rm {
+  display: flex;
+}
+
 .col,
 .col-1,
 .col-10,
@@ -839,7 +844,7 @@ pre code {
   .col-sm-7 {
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
-    max-width: 58.333333%;
+    max-width: 100%;
   }
   .col-sm-8 {
     -ms-flex: 0 0 66.666667%;
@@ -6790,6 +6795,8 @@ button.bg-dark:hover {
 }
 .m-0 {
   margin: 0 !important;
+  display: flex;
+  flex-direction: row;
 }
 .mt-0,
 .my-0 {
@@ -6862,10 +6869,10 @@ button.bg-dark:hover {
 }
 
 .sertif-zoom {
-    transition: transform 0.2s;
+  transition: transform 0.2s;
 }
-.sertif-zoom:hover{
-    transform: scale(8);
+.sertif-zoom:hover {
+  transform: scale(6);
 }
 
 .ml-3,
@@ -6919,7 +6926,7 @@ button.bg-dark:hover {
 }
 .pr-0,
 .px-0 {
-  padding-right: 0 !important;
+  padding-right: 5 !important;
 }
 .pb-0,
 .py-0 {
@@ -6928,6 +6935,7 @@ button.bg-dark:hover {
 .pl-0,
 .px-0 {
   padding-left: 0 !important;
+  padding: 0px 30px 0px 0px;
 }
 .p-1 {
   padding: 0.25rem !important;
@@ -7704,6 +7712,7 @@ button.bg-dark:hover {
   .pr-lg-2,
   .px-lg-2 {
     padding-right: 0.5rem !important;
+    padding: 0px 30px 0px 0px;
   }
   .pb-lg-2,
   .py-lg-2 {
