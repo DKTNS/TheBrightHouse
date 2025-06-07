@@ -61,6 +61,7 @@
     <link href="temlates/theme-204722.css" rel="stylesheet" />
     <link href="temlates/204727.css" rel="stylesheet" />
     <link href="temlates/theme-204723.css" rel="stylesheet" />
+    <link href="temlates/swipe-corusel.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   </head>
 
@@ -297,48 +298,48 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12">
-                    <div class="signle-swiper-start">
-                      <div class="thumbnail-banner-one">
-                        <img
-                          src="images/topBanner/IMG_6641.png"
-                          class="mn-photo"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="left-swiper-area-start">
-                <div class="mn-card">
-                  <span class="pre mn-mini-title">Наши услуги</span>
-                  <h2 class="title mn-title">
-                    Проводим работы по остеклению и монтажу входных групп
-                  </h2>
-                  <p class="disc mn-text">
-                    <p class="disc mn-text">1. Остекление общеобразовательных учреждений: школ и детских садов</p>
-                    <p class="disc mn-text">2. Фасадное остекление</p>
-                    <p class="disc mn-text">3. Пожаростойкие оконные блоки и витражи</p>
-                    <p class="disc mn-text">4. Оконные блоки из ПВХ и алюминия</p>
-                    <p class="disc mn-text">5. Структурное остекление, Панорамное остекление, Раздвижное остекление</p>
-                    <p class="disc mn-text">6. Зенитные фонари</p>
-                  </p>
-                  <div class="d-block d-md-none mb-4">
-                    <img
-                      src="object/86205/342117_p1.png"
-                      class="w-100"
-                      alt=""
-                    />
-                  </div>
-                  <div class="animation-55">
-                    <a href="#cards-h" class="rts-btn btn mn-btn"
-                      >Смотреть услуги</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!------------------------------------------------------>
-              <!-- <div
+                    <div class="swiper-container my-carousel">
+        <div class="swiper-wrapper">
+          <!-- Слайд 1 -->
+          <div class="swiper-slide">
+            <div class="thumbnail-banner-one">
+              <img src="images/topBanner/IMG_6166.png" class="mn-photo" alt="">
+            </div>
+          </div>
+          <!-- Слайд 2 -->
+          <div class="swiper-slide">
+            <div class="thumbnail-banner-one">
+              <img src="images/topBanner/IMG_6288.png" class="mn-photo" alt="">
+            </div>
+          </div>
+          <!-- Слайд 3 -->
+          <div class="swiper-slide">
+            <div class="thumbnail-banner-one">
+              <img src="images/topBanner/IMG_6292.png" class="mn-photo" alt="">
+            </div>
+          </div>
+          <!-- Слайд 4 -->
+          <div class="swiper-slide">
+            <div class="thumbnail-banner-one">
+              <img src="images/topBanner/IMG_6417.png" class="mn-photo" alt="">
+            </div>
+          </div>
+          <!-- Слайд 5 -->
+          <div class="swiper-slide">
+            <div class="thumbnail-banner-one">
+              <img src="images/topBanner/IMG_6418.png" class="mn-photo" alt="">
+            </div>
+          </div>
+                    <!-- Слайд 6 -->
+          <div class="swiper-slide">
+            <div class="thumbnail-banner-one">
+              <img src="images/topBanner/IMG_6450.png" class="mn-photo" alt="">
+            </div>
+          </div>
+          <!-- Добавьте больше слайдов по необходимости -->
+        </div>
+        <!-- Добавляем навигацию (кнопки вперед/назад) -->
+              <div
                 class="d-flex flex-column align-items-end position-absolute"
                 style="
                   height: 120px;
@@ -381,7 +382,43 @@
                     ></path>
                   </svg>
                 </div> 
-              </div> -->
+              </div> 
+        <!-- Добавляем пагинацию (точки) -->
+        <div class="swiper-pagination"></div>
+      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="left-swiper-area-start">
+                <div class="mn-card">
+                  <span class="pre mn-mini-title">Наши услуги</span>
+                  <h2 class="title mn-title">
+                    Проводим работы по остеклению и монтажу входных групп
+                  </h2>
+                  <p class="disc mn-text">
+                    <p class="disc mn-text">1. Остекление общеобразовательных учреждений: школ и детских садов</p>
+                    <p class="disc mn-text">2. Фасадное остекление</p>
+                    <p class="disc mn-text">3. Пожаростойкие оконные блоки и витражи</p>
+                    <p class="disc mn-text">4. Оконные блоки из ПВХ и алюминия</p>
+                    <p class="disc mn-text">5. Структурное остекление, Панорамное остекление, Раздвижное остекление</p>
+                    <p class="disc mn-text">6. Зенитные фонари</p>
+                  </p>
+                  <div class="d-block d-md-none mb-4">
+                    <img
+                      src="object/86205/342117_p1.png"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div class="animation-55">
+                    <a href="#cards-h" class="rts-btn btn mn-btn"
+                      >Смотреть услуги</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!------------------------------------------------------>
+
             </div>
           </div>
         </div>
@@ -1355,6 +1392,25 @@
         SiteBox("d", false);
       });
     </script>
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var mySwiper = new Swiper('.my-carousel', {
+      // Параметры карусели
+      loop: true, // Бесконечная карусель
+      autoplay: {
+        delay: 5000, // Автопрокрутка каждые 3 секунды
+      },
+      navigation: {
+        nextEl: '.slider-one-slide-next-1',
+        prevEl: '.slider-one-slide-prev-1',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  });
+</script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
