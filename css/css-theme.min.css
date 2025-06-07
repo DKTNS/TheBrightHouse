@@ -871,7 +871,8 @@ progress {
   }
   .col-sm-7 {
     flex: 0 0 auto;
-    width: 58.33333333%;
+    /* width: 58.33333333%; */
+    max-width: 100%;
   }
   .col-sm-8 {
     flex: 0 0 auto;
@@ -7178,6 +7179,7 @@ fieldset:disabled .btn {
 }
 .pe-1 {
   padding-right: 0.25rem !important;
+  
 }
 .pe-2 {
   padding-right: 0.5rem !important;
