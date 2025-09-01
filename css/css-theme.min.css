@@ -7179,7 +7179,6 @@ fieldset:disabled .btn {
 }
 .pe-1 {
   padding-right: 0.25rem !important;
-  
 }
 .pe-2 {
   padding-right: 0.5rem !important;
@@ -12723,7 +12722,7 @@ hr.dropdown-divider {
   display: block;
   top: 50%;
   margin-top: -0.0625rem;
-  transition-duration: 0.075s;
+  transition-duration: 0.045s;
   transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 .navbar-toggler-icon,
