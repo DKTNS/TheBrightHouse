@@ -5,10 +5,10 @@ function headerStyle() {
         var scrollLink = $('.scroll-top');
         if (windowpos >= 250) {
             siteHeader.addClass('fixed-header');
-            scrollLink.fadeIn(300);
+            scrollLink.fadeIn(200);
         } else {
             siteHeader.removeClass('fixed-header');
-            scrollLink.fadeOut(300);
+            scrollLink.fadeOut(200);
         }
     }
 }

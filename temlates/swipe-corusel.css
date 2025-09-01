@@ -32,7 +32,7 @@
 
 .swiper-slide {
   width: 100%; /* Ширина слайда */
-  transition: transform 0.3s ease;
+  transition: transform 0.02s ease;
 }
 
 /* Центрирование активного слайда */

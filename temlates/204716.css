@@ -10,15 +10,15 @@
     display: block;
 }
 .mn-top-banner-site .mySwiper-banner-one-in-two .swiper-slide.swiper-slide-active .title {
-    animation: fadeInUp 1.5s;
+    animation: fadeInUp 1.0s;
     animation-delay: 0s;
 }
 .mn-top-banner-site .mySwiper-banner-one-in-two .swiper-slide.swiper-slide-active .disc {
-    animation: fadeInUp 2.5s;
+    animation: fadeInUp 1.0s;
     animation-delay: 0s;
 }
 .mn-top-banner-site .mySwiper-banner-one-in-two .swiper-slide.swiper-slide-active .rts-btn {
-    animation: fadeInUp 2.5s;
+    animation: fadeInUp 1.0s;
     animation-delay: 0s;
 }
 .mn-top-banner-site .mn-card {
@@ -28,23 +28,23 @@
     position: relative;
 }
 .mn-top-banner-site .mn-card .rts-btn {
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .mn-top-banner-site .swiper-wrapper .swiper-slide.swiper-slide-active .pre {
-    animation: fadeInUp2 1.5s;
+    animation: fadeInUp2 1.0s;
     animation-delay: 0s;
     display: block;
 }
 .mn-top-banner-site .swiper-wrapper .swiper-slide.swiper-slide-active .title {
-    animation: fadeInUp2 1.5s;
+    animation: fadeInUp2 1.0s;
     animation-delay: 0s;
 }
 .mn-top-banner-site .swiper-wrapper .swiper-slide.swiper-slide-active .disc {
-    animation: fadeInUp2 2.5s;
+    animation: fadeInUp2 1.0s;
     animation-delay: 0s;
 }
 .mn-top-banner-site .swiper-wrapper .swiper-slide.swiper-slide-active .animation-55 {
-    animation: fadeInUp2 2.5s;
+    animation: fadeInUp2 1.0s;
     animation-delay: 0s;
 }
 /* .mn-top-banner-site .mn-box {
@@ -54,7 +54,7 @@
 } */
 .mn-top-banner-site .left-swiper-area-start {
     position: absolute;
-    top: 50%;
+    top: 80%;
     transform: translateY(-50%);
     z-index: 1;
     left: 80px;
