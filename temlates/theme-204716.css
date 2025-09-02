@@ -28,12 +28,14 @@
   .mn-top-banner-site .mn-card {
     border-radius: 10px;
     padding: 30px 35px 30px 35px;
+    margin: -120px 25px -100px -1px;
   }
 }
 @media (min-width: 1200px) {
   .mn-top-banner-site .mn-card {
     border-radius: 10px;
     padding: 30px 35px 30px 35px;
+
   }
 }
 @media (min-width: 1400px) {
