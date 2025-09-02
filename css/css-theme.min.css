@@ -143,7 +143,7 @@ h2,
 @media (min-width: 768px) {
   h2,
   .h2 {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
   }
 }
 h3,
@@ -14689,6 +14689,11 @@ a.badge {
     margin-left: auto;
   }
 }
+
+.swiper-pagination {
+        display: none !important;
+    }
+
 @media (min-width: 992px) {
   .steps-horizontal-lg.steps {
     flex-direction: row;
