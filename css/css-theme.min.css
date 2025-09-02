@@ -140,6 +140,12 @@ h2,
     font-size: 2rem;
   }
 }
+@media (min-width: 768px) {
+  h2,
+  .h2 {
+    font-size: 0.8rem;
+  }
+}
 h3,
 .h3 {
   font-size: calc(1.3rem + 0.6vw);

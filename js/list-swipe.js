@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Параметры карусели
     loop: true, // Бесконечная карусель
     autoplay: {
-      delay: 100, // Автопрокрутка каждые 3 секунды
+      delay: 500, // Автопрокрутка каждые 3 секунды
     },
     navigation: {
       nextEl: ".swiper-button-next",

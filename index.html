@@ -19,27 +19,6 @@
     <link rel="stylesheet" href="css/all.css" />
     <link rel="stylesheet" href="css/css-theme.min.css" />
     <link rel="stylesheet" href="css/css-jquery-confirm.min.css" />
-    <link href="temlates/204689.css" rel="stylesheet" />
-    <link href="temlates/theme-204689.css" rel="stylesheet" />
-    <link href="temlates/204688.css" rel="stylesheet" />
-    <link href="temlates/theme-204688.css" rel="stylesheet" />
-    <link href="temlates/204698.css" rel="stylesheet" />
-    <link href="temlates/theme-204698.css" rel="stylesheet" />
-    <link href="temlates/204690.css" rel="stylesheet" />
-    <link href="temlates/theme-204690.css" rel="stylesheet" />
-    <link href="temlates/204693.css" rel="stylesheet" />
-    <link href="temlates/theme-204693.css" rel="stylesheet" />
-    <link href="temlates/204691.css" rel="stylesheet" />
-    <link href="temlates/theme-204691.css" rel="stylesheet" />
-    <link href="temlates/204692.css" rel="stylesheet" />
-    <link href="temlates/theme-204692.css" rel="stylesheet" />
-    <link href="temlates/204697.css" rel="stylesheet" />
-    <link href="temlates/theme-204697.css" rel="stylesheet" />
-    <link href="temlates/theme-204696.css" rel="stylesheet" />
-    <link href="temlates/204694.css" rel="stylesheet" />
-    <link href="temlates/theme-204694.css" rel="stylesheet" />
-    <link href="temlates/204699.css" rel="stylesheet" />
-    <link href="temlates/theme-204695.css" rel="stylesheet" />
     <link href="temlates/204717.css" rel="stylesheet" />
     <link href="temlates/theme-204717.css" rel="stylesheet" />
     <link href="temlates/204716.css" rel="stylesheet" />
@@ -62,10 +41,13 @@
     <link href="temlates/204727.css" rel="stylesheet" />
     <link href="temlates/theme-204723.css" rel="stylesheet" />
     <link href="temlates/swipe-corusel.css" rel="stylesheet" />
+    <link href="temlates/mobile-menu.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
 
   <body>
+  
     <!--     <main role="main" id="main">
       <div>
         <iframe
@@ -190,6 +172,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </div>
+                </div>
+                <!-- Mobile Navigation Menu -->
+                <div class="mobile-nav">
+                    <div class="menu-backdrop"></div>
+                    
+                    <nav class="menu-box">
+                        <div class="close-btn"><i class="fas fa-times"></i></div>
+                        
+                        <ul class="navigation clearfix">
+                            <li><a href="#img-and-text">О компании</a></li>
+                            <li><a href="#cards-h">Услуги</a></li>
+                            <li><a href="#carousel-gallery">Проекты</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <!-- Main Menu -->
                 <nav class="main-menu navbar-expand-md navbar-light">
@@ -397,7 +393,7 @@
                   </h2>
                   <div class="d-block d-md-none mb-4">
                     <img
-                      src="object/86205/342117_p1.png"
+                      src="images/topBanner/IMG_6166.png"
                       class="w-100"
                       alt=""
                     />
@@ -1388,7 +1384,7 @@
       // Параметры карусели
       loop: true, // Бесконечная карусель
       autoplay: {
-        delay: 800, // Автопрокрутка каждые 3 секунды
+        delay: 1200, // Автопрокрутка каждые 3 секунды
       },
       navigation: {
         nextEl: '.slider-one-slide-next-1',
@@ -1402,5 +1398,6 @@
   });
 </script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="../temlates/mobile-menu.js"></script>
   </body>
 </html>
