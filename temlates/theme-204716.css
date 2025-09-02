@@ -19,8 +19,9 @@
 }
 @media (min-width: 768px) {
   .mn-top-banner-site .mn-card {
-    border-radius: 0px;
-    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    padding: 20px 85px 20px 14px;
+    margin: 240px 25px -100px -1px;
   }
 }
 @media (min-width: 992px) {
@@ -51,7 +52,7 @@
 .mn-top-banner-site .mn-title {
   color: #ffffff;
   margin: 0px 0px 20px 0px;
-  font-family: sans-serif, 'Times New Roman', Times, serif;
+  font-family: sans-serif, "Times New Roman", Times, serif;
 }
 @media (min-width: 0px) {
   .mn-top-banner-site .mn-text {
@@ -98,7 +99,7 @@
 }
 @media (min-width: 0px) {
   .mn-top-banner-site .mn-box {
-    padding: 174px 0px 174px 0px;
+    padding: 70px 0px 70px 0px;
     border-radius: 0px;
   }
 }
@@ -110,7 +111,7 @@
 }
 @media (min-width: 768px) {
   .mn-top-banner-site .mn-box {
-    padding: 174px 0px 174px 0px;
+    padding: 0px 0px 0px 0px;
     border-radius: 0px;
   }
 }
