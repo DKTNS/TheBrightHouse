@@ -14689,6 +14689,11 @@ a.badge {
     margin-left: auto;
   }
 }
+
+.swiper-pagination {
+        display: none !important;
+    }
+
 @media (min-width: 992px) {
   .steps-horizontal-lg.steps {
     flex-direction: row;
