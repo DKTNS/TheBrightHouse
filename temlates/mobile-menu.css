@@ -64,7 +64,7 @@
 
 .navigation li {
   position: relative;
-  border-bottom: 1px solid #eee;
+  /*border-bottom: 1px solid #eee;*/
 }
 
 .navigation li a {
